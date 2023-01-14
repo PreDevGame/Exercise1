@@ -7,12 +7,12 @@ public class GlobalScore : MonoBehaviour
 {
     public GameObject scoreBox;
     public static int currentScore;
-    public int internalScore;
+    public static int internalScore;
+
 
     void Update()
     {
         internalScore = currentScore;
         scoreBox.GetComponent<Text>().text = "" + internalScore;
-
     }
 }

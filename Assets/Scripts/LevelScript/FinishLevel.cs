@@ -28,6 +28,7 @@ public class FinishLevel : MonoBehaviour
         theScore.GetComponent<Text>().text = "Score: " + GlobalScore.currentScore;
         tolScoreCalc = GlobalScore.currentScore + timeCalc;
         totalScore.GetComponent<Text>().text = "Total Score: " + tolScoreCalc;
+        PlayerPrefs.SetInt("LevelBestScore", tolScoreCalc);
         levelMusic.SetActive(false);
         levelTimer.SetActive(false);
         levelComplete.Play();
@@ -46,4 +47,5 @@ public class FinishLevel : MonoBehaviour
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(6);
     }
+
 }

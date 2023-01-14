@@ -34,7 +34,7 @@ public class PauseGame : MonoBehaviour
         }
     }
 
-    public void resumeGame()
+    public void ResumeGame()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
@@ -42,7 +42,7 @@ public class PauseGame : MonoBehaviour
         Cursor.visible = false;
         levelMusic.UnPause(); 
     }
-    public void restartLevel()
+    public void RestartLevel()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
@@ -52,7 +52,7 @@ public class PauseGame : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    public void quitToMenu()
+    public void QuitToMenu()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1;

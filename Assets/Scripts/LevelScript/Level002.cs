@@ -9,10 +9,10 @@ public class Level002 : MonoBehaviour
     void Start()
     {
         RedirectTotalLevel.redirectTolLevel = 4;
-        StartCoroutine(fadeInOff());
+        StartCoroutine(FadeInOff());
     }
 
-    IEnumerator fadeInOff()
+    IEnumerator FadeInOff()
     {
         yield return new WaitForSeconds(1);
         fadeIn.SetActive(false);

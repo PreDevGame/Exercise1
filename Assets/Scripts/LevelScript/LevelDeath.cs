@@ -22,5 +22,6 @@ public class LevelDeath : MonoBehaviour
         fadeOut.SetActive(true);
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene(2);
+        GlobalScore.currentScore = 0;
     }
 }

@@ -16,11 +16,11 @@ public class GlobalTimer : MonoBehaviour
         extendScore = theSeconds;
         if (isTakingTime == false)
         {
-            StartCoroutine(subtractSecond());
+            StartCoroutine(SubtractSecond());
         }
     }
     
-    IEnumerator subtractSecond()
+    IEnumerator SubtractSecond()
     {
         isTakingTime = true;
         theSeconds -= 1;

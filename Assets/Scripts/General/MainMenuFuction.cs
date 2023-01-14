@@ -21,6 +21,6 @@ public class MainMenuFuction : MonoBehaviour
     public void PlayCreds()
     {
         buttonPress.Play();
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 }
