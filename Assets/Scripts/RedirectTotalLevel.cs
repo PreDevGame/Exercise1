@@ -13,5 +13,9 @@ public class RedirectTotalLevel : MonoBehaviour
         {
             SceneManager.LoadScene(redirectTolLevel);
         }
+        if (redirectTolLevel == 4)
+        {
+            SceneManager.LoadScene(redirectTolLevel);
+        }
     }
 }

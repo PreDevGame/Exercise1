@@ -123,3 +123,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea23fddc7d93037498a1ccca7d595602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7950334067870583914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5026178459970109578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363aeb41d58823740aa86a25e08d2db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreBox: {fileID: 0}
+  collectSound: {fileID: 0}
