@@ -8,7 +8,7 @@ public class PlatformGripper : MonoBehaviour
     public GameObject thePlayer;
 
     void OnTriggerEnter()
-    {
+    { 
         thePlayer.transform.parent = theLedge.transform;
     }
 

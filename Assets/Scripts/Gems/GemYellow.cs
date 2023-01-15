@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GemSilver : MonoBehaviour
+public class GemYellow : MonoBehaviour
 {
     public GameObject scoreBox;
     public AudioSource collectSound;

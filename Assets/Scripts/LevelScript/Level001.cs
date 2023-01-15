@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Level001 : MonoBehaviour
 {
     public GameObject fadeIn;
+    public GameObject guideTable;
     void Start()
     {
 
@@ -17,6 +18,11 @@ public class Level001 : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         fadeIn.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        guideTable.SetActive(true);
+        yield return new WaitForSeconds(3);
+        guideTable.SetActive(false);
+
     }
 
 }
