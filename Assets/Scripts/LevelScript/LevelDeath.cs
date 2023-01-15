@@ -8,10 +8,12 @@ public class LevelDeath : MonoBehaviour
     public GameObject youFell;
     public GameObject levelAudio;
     public GameObject fadeOut;
+    public AudioSource gameOver;
 
     void OnTriggerEnter()
     {
         StartCoroutine(YouFellOff());
+        gameOver.Play();
     }
 
     IEnumerator YouFellOff()

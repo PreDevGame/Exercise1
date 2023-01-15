@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/RedirectLevel.unity
     guid: 0a5f92baa15b7fc44a7bf466190616e8
   - enabled: 1
-    path: Assets/Scenes/Level01 copy.unity
-    guid: 54c9bf6d5421878459cd7b23ea62f3ff
+    path: Assets/Scenes/Level01.unity
+    guid: 1e9d2dc006d0b9f45a117901261689e1
   - enabled: 1
     path: Assets/Scenes/Level02.unity
     guid: 99f50102b528e5743a53145cc5b84b8f

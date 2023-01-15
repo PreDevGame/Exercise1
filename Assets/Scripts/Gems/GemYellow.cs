@@ -11,8 +11,7 @@ public class GemYellow : MonoBehaviour
     void OnTriggerEnter()
     {
         GlobalScore.currentScore += 200;
-        //scoreBox.GetComponent<Text>().text = "1000"; // When Player
-        //collectSound.Play(); // When Player collect a gem this sound will play
         Destroy(gameObject);
+        collectSound.Play(); // When Player collect a gem this sound will play
     }
 }

@@ -11,7 +11,7 @@ public class GemGreen : MonoBehaviour
     void OnTriggerEnter()
     {
         GlobalScore.currentScore += 500;
-        //collectSound.Play(); // When Player collect a gem this sound will play
+        collectSound.Play(); // When Player collect a gem this sound will play
         Destroy(gameObject);
     }
 }
